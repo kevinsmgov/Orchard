@@ -1,0 +1,11 @@
+﻿<Placement>
+
+    <Match ContentType="HomePage">
+        <Place Parts_Title="-"
+               Fields_Numeric="-"
+               Fields_ContentPicker="-"
+               Fields_TaxonomyField=""/>
+        <Place Parts_WhatsHappeningList="Content:after" />
+    </Match>
+
+</Placement>

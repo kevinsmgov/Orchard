@@ -1,0 +1,38 @@
+﻿@using Orchard.ContentManagement
+@{
+    var whatsHappening = Model.ContentPart.WhatsHappeningList;  // (Model.ContentItems as IEnumerable<ContentItem>).ToArray();
+    if (whatsHappening.Length >= 2)
+    {
+        <section class="pb-4 bg-light csm-card-collection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4 mt-2">
+                        <h1 class="text-center font-weight-bold">What's Happening</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        @Display(whatsHappening[0])
+                    </div>
+                    <div class="col-md-8">
+                        @Display(whatsHappening[1])
+                    </div>
+                </div>
+
+                @if (whatsHappening.Length >= 4)
+                {
+                    <div class="row">
+                        <div class="col-md-8">
+                            @Display(whatsHappening[2])
+                        </div>
+                        <div class="col-md-4">
+                            @Display(whatsHappening[3])
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </section>
+    }
+}
+

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Exported from Orchard-->
+<Orchard>
+  <Recipe>
+    <ExportUtc>2020-10-09T11:37:36.3184826Z</ExportUtc>
+  </Recipe>
+  <Content>
+    <HomePage Id="/alias=city-of-santa-monica/Identifier=05890470388a4e5ebe6a7812be00d98b" Status="Published">
+      <ContentPickerField.WhatsHappeningList ContentItems="/Identifier=f490d01be99544feb02e90b64b5558b0,/Identifier=53f64e5132a544f39deae74d99cc6230" />
+      <AutoroutePart Alias="city-of-santa-monica" UseCustomPattern="false" UseCulturePattern="false" PromoteToHomePage="true" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2020-10-09T11:06:55.3628109Z" PublishedUtc="2020-10-09T11:19:50.5932921Z" ModifiedUtc="2020-10-09T11:19:50.5812942Z" />
+      <IdentityPart Identifier="05890470388a4e5ebe6a7812be00d98b" />
+      <TitlePart Title="City of Santa Monica" />
+    </HomePage>
+    <WhatsHappening Id="/Identifier=53f64e5132a544f39deae74d99cc6230" Status="Published">
+      <LinkField.URL Url="https://www.santamonica.gov/coronavirus" />
+      <TextField.Subtitle Text="New programs now available" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2020-10-09T11:16:37.3672288Z" PublishedUtc="2020-10-09T11:16:37.3802184Z" ModifiedUtc="2020-10-09T11:16:37.3752185Z" />
+      <IdentityPart Identifier="53f64e5132a544f39deae74d99cc6230" />
+      <TitlePart Title="Covid-19 Resources" />
+    </WhatsHappening>
+    <WhatsHappening Id="/Identifier=f490d01be99544feb02e90b64b5558b0" Status="Published">
+      <LinkField.URL Url="https://www.santamonica.gov/coronavirus-volunteer" />
+      <TextField.Subtitle Text="Help support those in need" />
+      <CommonPart Owner="/User.UserName=admin" CreatedUtc="2020-10-09T11:16:28.8215442Z" PublishedUtc="2020-10-09T11:16:28.9170444Z" ModifiedUtc="2020-10-09T11:16:28.9050549Z" />
+      <IdentityPart Identifier="f490d01be99544feb02e90b64b5558b0" />
+      <TitlePart Title="Give Back" />
+    </WhatsHappening>
+  </Content>
+</Orchard>
